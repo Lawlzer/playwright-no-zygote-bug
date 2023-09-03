@@ -21,7 +21,7 @@ async function main() {
   await page.type("#FFC", startDate);
   await page.type("#date", endDate);
 
-  console.log("About to click search");
+  console.log("About to click search (we usually error next line)");
   await page.getByRole("button", { name: "Search" }).click();
   console.log("Search button pressed");
 
