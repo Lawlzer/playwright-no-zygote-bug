@@ -27,6 +27,7 @@ async function main() {
 
   await page.click("body > div.page-container > button");
   console.log("Show all rows button pressed");
+  console.log("Script successfully ran!");
 }
 
 void main();
