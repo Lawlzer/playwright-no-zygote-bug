@@ -1,0 +1,36 @@
+# Same as .gitignore -- We don't want to clone any temp files
+
+# Dependencies
+node_modules
+
+# Logs and dev output
+logs
+routeTypes
+
+# Temporary caches
+*.tsbuildinfo
+caches
+cache
+lerna-debug.log
+
+# Environment variables/secrets
+.env
+.env.development
+.env.production
+.env.test
+
+# Build / Generated output
+build
+dist
+lib
+output
+
+# Temporary/dev locations
+legacy
+temp
+tmp
+
+todo
+todo.txt
+
+# Specific to this project

@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "playwright": "^1.37.1"
+  }
+}
